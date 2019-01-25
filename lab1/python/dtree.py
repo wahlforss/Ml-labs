@@ -50,7 +50,7 @@ def allNegative(dataset):
 def mostCommon(dataset):
     "Majority class of the dataset"
     pCount = len([x for x in dataset if x.positive])
-    nCount = len([x for x in dataset if not x.positive])
+    nCount = len([x for x in dataset if not x.positive])    
     return pCount > nCount
 
 
